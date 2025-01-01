@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: black; /* Changed to black */
+    margin-bottom: 20px;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d89a44;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bf7d32;
+}
+
+/* Style for the signature */
+#signature {
+    position: fixed;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold text */
+    color: #89CFF0; /* Radium sky blue color */
+    z-index: 10; /* Ensure it stays on top */
+    font-family: Arial, sans-serif; /* Add a stylish font */
+}
